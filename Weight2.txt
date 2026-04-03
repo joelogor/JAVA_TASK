@@ -1,0 +1,7 @@
+public class Weight2{
+
+   public static void main(String[] args) {  
+      
+     System.out.printf("%f%n %f%n %f%n %f%n %f%n", 35.4fkg,  45.7fkg, 45.9fkg, 102.0fkg, 40.23fkg);
+    }
+}
