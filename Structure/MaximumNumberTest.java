@@ -6,8 +6,8 @@ public class MaximumNumberTest{
     @Test
     public void testThatCorrectMaximumNumberIsReturned(){
 
-        int expectedNumber = MaximumNumber.max(1,2,3);
-        int actualNumber = 3;
+        int actualNumber = MaximumNumber.max(1,2,3);
+        int expectedNumber = 3;
         assertEquals(expectedNumber, actualNumber);
 
 
