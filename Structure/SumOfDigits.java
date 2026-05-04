@@ -10,14 +10,14 @@ public class SumOfDigits{
 
             digit = number % 10;
             number = number / 10;
-            sum += digit;
+            sum = sum + digit;
         }
 
         return sum;
     }
     public static void main(String[] args){
 
-        sumDigits(5);
+        System.out.println(sumDigits(5));
         
     }
 }
