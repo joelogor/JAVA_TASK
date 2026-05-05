@@ -10,10 +10,7 @@ public class MaximumNumberTest{
         int actualNumber = 15;
         assertEquals(expectedNumber, actualNumber);
 
-        
-
-
-
+       
     }   
 
 }

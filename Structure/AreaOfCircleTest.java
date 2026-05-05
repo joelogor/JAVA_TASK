@@ -6,8 +6,8 @@ public class AreaOfCircleTest{
     @Test
     public void testThatAreaOfCircleIsWithinAValue(){
 
-        double expectedArea = AreaOfCircle.circleArea(10.0);
-        double actualArea = 314.159;
+        double actualArea = AreaOfCircle.circleArea(10.0);
+        double expectedArea = 314.159;
         assertTrue(expectedArea - actualArea);
 
         
