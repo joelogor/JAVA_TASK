@@ -2,7 +2,7 @@ public class OshoFreePromoEngine{
     
     public static double getFinalPrice(double cartTotal, String promoCode){
         int discount = 0;
-        if(cartTotal < 5000.00){
+        if(cartTotal < 5000.00 && promoCode.toUpperCase().equals "STARTER10"){
             discount = 0                    
         }
         else if(cartTotal >= 5000.00 && cartTotal <=14999.00 && promoCode.toUpperCase().equals "STARTER10" ){
