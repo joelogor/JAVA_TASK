@@ -6,13 +6,13 @@ public class OshoFreePromoEngineTest{
     
     @Test
 
-        public void testThatAValidPromoCodeForCartTotalOf5000ReturnsheCorrectDiscountedPrice(){
+        public void testThatAValidPromoCodeForCartTotalOf5000ReturnsTheCorrectDiscountedPrice(){
             double cartTotal = 5000.00;
             String promoCode = "STARTER10";
             
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 4500.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         }
 
 
@@ -25,7 +25,7 @@ public class OshoFreePromoEngineTest{
          
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 10800.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
@@ -38,7 +38,7 @@ public class OshoFreePromoEngineTest{
             
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 12000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
@@ -51,7 +51,7 @@ public class OshoFreePromoEngineTest{
             
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 16000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
@@ -64,7 +64,7 @@ public class OshoFreePromoEngineTest{
            
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 20000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
@@ -79,7 +79,7 @@ public class OshoFreePromoEngineTest{
          
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 26000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
@@ -92,7 +92,7 @@ public class OshoFreePromoEngineTest{
           
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 40000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
          
@@ -104,7 +104,7 @@ public class OshoFreePromoEngineTest{
            
             double actual = calc.getFinalPrice(cartTotal, promoCode);
             double expected = 5000.00;
-            assertEquals(expected, result);
+            assertEquals(expected, actual);
         
          }
 
