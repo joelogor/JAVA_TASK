@@ -5,10 +5,10 @@ public class OshoFreePromoEngine{
         if(cartTotal < 5000.00){
             discount = 0                    
         }
-        else if(cartTotal >5000.00 && cartTotal <=14999.00 && promoCode.toUpperCase().equals "STARTER10" ){
+        else if(cartTotal >= 5000.00 && cartTotal <=14999.00 && promoCode.toUpperCase().equals "STARTER10" ){
             discount = 10/100;
         }
-        else if(cartTotal >14999.00 && cartTotal <=29999.00 && promoCode.toUpperCase().equals "BIGBOY20"){
+        else if(cartTotal >= 14999.00 && cartTotal <=29999.00 && promoCode.toUpperCase().equals "BIGBOY20"){
             discount = 20/100;  
         }
         else if(cartTotal >29999.00 && promoCode.toUpperCase().equals"OSHOFREE35" ){
