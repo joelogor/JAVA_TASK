@@ -1,0 +1,9 @@
+a) i, there is no curly braces after the if and  else statement. the semicolon after the if statement should be replaced by open braces and should also be closed.
+   ii, the douuble quote on the second print should be inside the paranthesis
+   
+ b) = is used for initialisation and not ==
+ c) there is no open and close braces after the while statement
+ d) there is no close braces
+ 
+  
+    
